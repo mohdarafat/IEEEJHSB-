@@ -1,0 +1,19 @@
+Improve Events Page...
+1.Align Events Vertically
+2.use pop-ups and icons
+
+update navbar to include facebook page
+
+choose a good font for navbar
+
+add become a sponsor link in navbar
+
+create google form for registration
+
+improve the content of technozova
+
+spread the word in technozova
+
+refactor about page
+
+github pages
