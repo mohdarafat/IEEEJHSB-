@@ -1,0 +1,156 @@
+#container {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+h1, h4, h2, h5{
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+#technozova-text {
+    font-family: 'Comfortaa', cursive;
+    background: #fff;
+    color: #100e17;
+    margin-top: -7px;
+    padding: 50px;
+    font-size: 25px;
+    border-top: 10px solid rgb(52, 50, 161);
+}
+
+#timeline {
+    margin-top: 20px;
+    font-family: 'Comfortaa', cursive;
+    padding: 15px;
+}
+
+.sub-content ul{
+    font-size: 20px;
+    color: #fff;
+}
+
+.sub-content ul > li {
+    margin:7px 0 7px 0;
+}
+
+#timeline h1 {
+    color: #ffffff;
+}
+
+#timeline h2{    
+    color: #ffffff;
+}
+
+
+#speakers {
+    padding: 60px;
+    font-family: 'Comfortaa', cursive;
+}
+
+#speakers h1 {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#particles-js-1, #particles-js-2, #particles-js-4{
+    width: 100%;
+    height: 100px;
+    background-color: #100e17;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+}
+
+
+
+#sponsors {
+    background: #fff;
+    padding: 20px;
+    box-shadow: inset 3px -8px 33px -20px rgba(0,0,0,0.75);
+}
+
+#sponsorship {
+    margin: 50px;
+    padding: 20px;
+}
+
+#sponsorship a{
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    color: #000;
+    background:#fff;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+    font-weight: bold;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+#contact {
+    font-family: 'Comfortaa', serif;
+}
+
+#icons i{
+    margin: 5px 30px 0 30px;
+    cursor: pointer;
+    color: #eee;
+}
+
+
+#fb_i:hover {
+    color: #3b5998;
+}
+#insta_i:hover {
+    color: #fb3958;
+}
+#twitter_i:hover {
+    color: #1da1f2;
+}
+
+@media(max-width: 1000px) {
+
+    #sponsorship a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    #sponsorship {
+        padding: 0;
+        margin: 30px 0 0 0;
+    }
+    #technozova-text {
+        font-size: 20px;
+        padding: 10px;
+    }
+    #speakers {
+        padding: 20px;
+    }
+    .sub-content ul {
+        font-size: 16px;
+    }
+    #icons i {
+        font-size: 50px;
+    }
+    #spark-talks {
+        max-width: 30%;
+    }
+}

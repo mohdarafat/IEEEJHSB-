@@ -1,0 +1,193 @@
+
+    body {
+  padding:0px;
+  font-family: Arial;
+ font-family: 'ZCOOL QingKe HuangYou', cursive;
+    background: url('./contact-form/bg.png') center center fixed no-repeat;
+     
+    }
+  
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+p{
+  font-size: 13px;
+  font-family: 'Merienda', cursive;
+}
+
+h4 {
+  font-size: 20px;
+  word-break:break-all;
+  font-family: 'Rokkitt', serif;
+
+  text-align: center;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  cursor:crosshair;
+}
+
+img{
+  cursor:crosshair;
+
+}
+.column:hover{
+  
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #80ffd4;
+  cursor:grab;
+  margin-top: 50px;
+  margin-left: 13px;
+  font-family:'Lobster', cursive;; 
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color:#00ffbf;
+cursor:-webkit-grabbing; cursor: grabbing;
+}
+
+.btn.active {
+  background-color: #00ffbf;
+  color: black;
+
+}
+/*navbar*/
+
+
+
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    font-size: 20px;
+}
+
+
+#fb_icon:hover {
+    color: #3b5998;
+    font-size: 23px;
+}
+#insta_icon:hover {
+    color: #fb3958;
+    font-size: 23px;
+}
+#twitter_icon:hover {
+    color: #1da1f2;
+    font-size: 23px;
+}
+
+
+
+#more  {
+        display: none;
+      }
+       
+       #more2 {
+        display: none;
+      }
+       #more3  {
+        display: none;
+      }
+       #more4  {
+        display: none;
+      }
+       #more5  {
+        display: none;
+      }
+       #more6  {
+        display: none;
+      }
+       #more7  {
+        display: none;
+      }
+       #more8  {
+        display: none;
+      }
+       #more9 {
+        display: none;
+      }
+       #more10  {
+        display: none;
+      }
+       #more11  {
+        display: none;
+      }
+       #more12  {
+        display: none;
+      }
+       #more13  {
+        display: none;
+      }
+      #more14  {
+        display: none;
+      }
+       #more15  {
+        display: none;
+      }
+       
+       #more16 {
+        display: none;
+      }
+       #more17 {
+        display: none;
+      }
+      #more1 {
+        display: none;
+      }
+       
+       
+
+  #particle-js{
+      height: 100%;
+      background-image: url(public/contact-form/bg.jpg);
+    }
